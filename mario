@@ -1,0 +1,30 @@
+const mario = document.querySelector ('.mario');
+const pipe = document.querySelector('.pipe')
+salto const = () => {
+                        mario.classList.add('salto');
+                        setTimeout(() => {
+                        mario.classList.remove('salto');
+                        },500);
+                    }
+const loop = setInterval(()=>{
+const pipePosition = pipe.offsetLeft;
+ const marioPosition= +window.getComputedStyle ( mario ).inferior.replace('px', ");
+
+ if(pipePosition <= 120 && pipePosition
+     cano.testily.animation = 'nelem';
+     cano.testily.esquerda = `$ {pipePosition}px`
+     mario.testily.animation = 'nelem';
+     mario.testily.inferior = ´$ {marioPosition}px`;
+     mario.src='./assets/game-over.png';
+       mario.testily.burglar='75px';
+       mario.testily.marginLet='50px';
+       clearInterval(loop);
+       }
+       },10);
+
+
+
+
+       document.addEventListener('keydown'jump)
+
+
